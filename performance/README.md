@@ -65,3 +65,9 @@ Benchmark           Mode  Cnt  Score   Error  Units
 MyBenchmark.multi   avgt    5  0.066 ± 0.014   s/op
 MyBenchmark.single  avgt    5  0.061 ± 0.009   s/op
 ```
+
+## 6.其它
+JMH骨架搭建
+```bash
+mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=org.openjdk.jmh -DarchetypeArtifactId=jmh-java-benchmark-archetype -DgroupId=com.itutry -DartifactId=performance -Dversion=1.0
+```
