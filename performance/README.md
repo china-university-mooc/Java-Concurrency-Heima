@@ -59,12 +59,16 @@ MyBenchmark.multi   avgt    5  0.020 ± 0.001   s/op
 MyBenchmark.single  avgt    5  0.042 ± 0.001   s/op
 ```
 
+可见多核情况下，多线程效率提升很明显，快了一倍多
+
 单核：
 ```
 Benchmark           Mode  Cnt  Score   Error  Units
 MyBenchmark.multi   avgt    5  0.066 ± 0.014   s/op
 MyBenchmark.single  avgt    5  0.061 ± 0.009   s/op
 ```
+
+可见单核情况下，多线程的效率还不如单线程，因为有线程上下文切换的开销
 
 ## 6.其它
 JMH骨架搭建
