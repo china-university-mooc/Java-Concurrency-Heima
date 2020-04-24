@@ -34,7 +34,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.itutry</groupId>
-    <artifactId>performance</artifactId>
+    <artifactId>case-performance</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
