@@ -6,8 +6,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_12:12
  */
-@Slf4j(topic = "c.TestMultiThread")
-public class TestMultiThread {
+@Slf4j(topic = "c.MultiThreadTest")
+public class MultiThreadTest {
 
   public static void main(String[] args) {
     test1();

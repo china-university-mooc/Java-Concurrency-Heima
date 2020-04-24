@@ -7,8 +7,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_09:33
  */
-@Slf4j(topic = "c.TestSleep")
-public class TestSleep {
+@Slf4j(topic = "c.SleepTest")
+public class SleepTest {
 
   public static void main(String[] args) throws InterruptedException {
     final Thread t1 = new Thread(() -> {

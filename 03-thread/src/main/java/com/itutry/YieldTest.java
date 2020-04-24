@@ -4,7 +4,7 @@ package com.itutry;
  * @author itutry
  * @create 2020-04-24_09:40
  */
-public class TestYield {
+public class YieldTest {
 
   public static void main(String[] args) {
     Runnable r1 = () -> {

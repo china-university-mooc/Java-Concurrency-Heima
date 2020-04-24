@@ -2,15 +2,14 @@ package com.itutry;
 
 import static com.itutry.util.Sleeper.sleep;
 
-import com.itutry.util.Sleeper;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author itutry
  * @create 2020-04-24_11:56
  */
-@Slf4j(topic = "c.TestDaemon")
-public class TestDaemon {
+@Slf4j(topic = "c.DaemonTest")
+public class DaemonTest {
 
   public static void main(String[] args) {
     final Thread t1 = new Thread(() -> {

@@ -8,8 +8,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_12:14
  */
-@Slf4j(topic = "c.TestCreateThread")
-public class TestCreateThread {
+@Slf4j(topic = "c.CreateThreadTest")
+public class CreateThreadTest {
 
   public static void main(String[] args) throws ExecutionException, InterruptedException {
 //    test1();

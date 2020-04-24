@@ -9,8 +9,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_11:41
  */
-@Slf4j(topic="c.TestInterrupt")
-public class TestInterrupt {
+@Slf4j(topic="c.InterruptTest")
+public class InterruptTest {
 
   public static void main(String[] args) {
 //    test1();

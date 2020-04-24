@@ -10,8 +10,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_11:59
  */
-@Slf4j(topic = "c.TestState")
-public class TestState {
+@Slf4j(topic = "c.StateTest")
+public class StateTest {
 
   public static void main(String[] args) {
     final Thread t1 = new Thread(() -> {
@@ -29,7 +29,7 @@ public class TestState {
     t3.start();
 
     final Thread t4 = new Thread(() -> {
-      synchronized (TestState.class) {
+      synchronized (StateTest.class) {
         sleep(2);
       }
     }, "t4");
@@ -45,7 +45,7 @@ public class TestState {
     t5.start();
 
     final Thread t6 = new Thread(() -> {
-      synchronized (TestState.class) {
+      synchronized (StateTest.class) {
         sleep(2);
       }
     }, "t6");

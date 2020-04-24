@@ -8,8 +8,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_09:56
  */
-@Slf4j(topic = "c.TestJoin")
-public class TestJoin {
+@Slf4j(topic = "c.JoinTest")
+public class JoinTest {
 
   private static int r = 0;
   private static int s = 0;

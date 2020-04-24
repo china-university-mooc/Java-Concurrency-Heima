@@ -8,8 +8,8 @@ import lombok.extern.slf4j.Slf4j;
  * @author itutry
  * @create 2020-04-24_09:11
  */
-@Slf4j(topic = "c.TestStart")
-public class TestStart {
+@Slf4j(topic = "c.StartTest")
+public class StartTest {
 
   public static void main(String[] args) {
     Thread t1 = new Thread(() -> {
