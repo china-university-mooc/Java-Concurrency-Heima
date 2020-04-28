@@ -5,6 +5,7 @@
 ## 描述
 
 MyBenchmark.normal(): 正常无锁方法
+
 MyBenchmark.lock(): 在局部锁对象上加锁
 
 ## 执行
